@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font: small Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#navbar ul {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+}
+
+li {
+    display: inline;
+}
+
+#navbar li {
+    padding: 0.5em;
+}
+
+.nav_text a {
+    color: black;
+    opacity: 0.75;
+}
+
+#apps {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-image: url("sprite.png");
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+    opacity: .55;
+    vertical-align: middle;
+}
+
+#apps:hover {
+    opacity: .8;
+}
+
+#signin a {
+    background: rgb(71, 121, 239);
+    border-radius: 3px;
+    padding: .6em 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: default;
+}
+
+#main {
+    position: relative;
+    top: 15em;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    height: 92px;
+    width: 272px;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    outline: none;
+}
+
+#search_box {
+    font: 1.4em Arial, sans-serif;
+    margin: 2em;
+    padding: 0.5em;
+    width: 80%;
+    max-width: 30em;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition: .1s ease-in-out;
+}
+
+#search_box:hover,
+#search_box:focus {
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.16), 2px 2px 5px 3px rgba(0, 0, 0, 0.08);
+}
+
+#buttons input {
+    border: 1px solid rgb(244, 244, 244);
+    border-radius: 3px;
+    padding: 0.6em 1.2em;
+    font: bold 1em Arial, sans-serif;
+    color: rgb(117, 117, 117);
+    background: rgb(244, 244, 244);
+}
+
+#buttons input:hover,
+#buttons input:focus {
+    border: 1px solid rgb(198, 198, 198);
+    color: rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.08)
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(242, 242, 242);
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+#l_foot {
+    float: left;
+}
+
+#r_foot {
+    float: right;
+}
+
+#footer ul {
+    padding: 1em 2em;
+}
+
+#footer li {
+    padding: 1em;
+}
+
+#footer a {
+    color: rgb(102, 102, 102);
+}
